@@ -225,7 +225,7 @@ a:visited { color: #205caa; }
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
-/* .post pre, */
+.post pre,
 /* .post code { */
 /*   border: 1px solid #d5d5e9; */
 /*   padding: 8px 12px; */
@@ -261,12 +261,12 @@ a:visited { color: #205caa; }
 
 /* solarized */
 .highlight {
-  background-color: #efefef;
+  background-color: #ffffcc;
   padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  /* border: 1px solid #ddd; */
+  /* -moz-box-shadow: 3px 3px rgba(0,0,0,0.1); */
+  /* -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1); */
+  /* box-shadow: 3px 3px rgba(0,0,0,0.1); */
   margin: 20px 0 20px 0;
   overflow: hidden;
 }
