@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Switched to Octopress"
+date: 2011-08-16 17:24
+comments: true
+categories: 
+---
+
+I really like Jekyll for a static website - which this (or any blog site I write\(or *fail* to write)) is.  And I really like working with the Solarized theme in VIM.  In fact, while googleing for a Solarized jekyll them, I stumbled across Octopress and am now trying it out...
+
+Now, I'm not sure if I'll stay with Octopress - I'm not convinced of the value and freedom of what you already get in a jekyll site.  But I have to admit, it is easier, and it's evolving, so I imagine you can get alot for free.  And Solarized is pretty to look at.  For now, I should just blog with something to say... Like how to use jekyll, Octopress and Heroku together.
+
+And that's what this post is about:
+
+Pushing to Heroku
+-----------------
+
+In order to push my site to Heroku, I created a Heroku app, added that Heroku information to git, and then changed the `.gitignore` file to not exclude the `public` folder.  That was really it.  The problem with this is - I'll be churning a bunch of files each time I generate the content using Jekyll... A better way to do this would be to edit the .gitignore for this branch, and then customize the rake task to build the static content and push to Heroku.  Right now, I'm doing that manually, but I like to see what changes I'm committing so, we'll see.
+
+Gotchas with Octopress
+---------------------
+
+My gotchas, anyway:
+
+- The `new_post` Rake command.  There's no space in there... `rake new_post["post_name"]` not `rake new_post ["post name"]`.  I got stung by that...
+- Using the `backtick` method for code - means that all the code needs to be indented.  Just different from some other tools I was using...
+
+Theming
+-------
+
+This was one of the main reasons I wanted to use Octopress.  Here's what I fumbled through:
+
+-  It's pretty easy - although I haven't done much other than override fonts, some existing template stuff and colors.  I'll look to do more extensive theme changes using the custom options in Octopress - more drastic css changes.  That will be next on the list...

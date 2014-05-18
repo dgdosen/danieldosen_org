@@ -1,0 +1,21 @@
+---
+layout: post
+title: "New-post"
+date: 2011-09-06 10:07
+comments: true
+categories:
+published: false
+---
+
+
+- one
+- two
+- three
+
+> wtf! Why is lauri treating me like crap?
+
+This is a test.
+
+***
+
+This is [an example](http://news.com "wow")

@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: Jekyllization
+tags: []
+
+status: publish
+type: post
+published: true
+meta: {}
+
+---
+h1. Jekyll
+
+I've been reading about Jekyll (on github) and it looks like a much more desirable way to host a website and related blog than wordpress. It works great because all your posts are stored as text using haml and kept under source control - It's makes it easy to work from anywhere, and gives you feature parity you could get with MarsEdit - but just easier to work with. 
+
+It's so easy - it looks like stealing candy from a  baby! - What a lark, let's try!
+
+This post is going to my wordpress blog, let's see how long it takes me to move it to Jekyll on github (not including DNS changes).
+
+See you on the flip side.
