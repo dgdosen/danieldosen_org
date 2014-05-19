@@ -47,54 +47,53 @@ I also wound up tweaking a checklist I maintain in an Evernote entry of what I d
 - Change your spec\_helper.rb file and move functionality up into the Spork pre fork block.
 - Change your environment.rb to allow for factory girl and cucumber integration (of lots of borrowable step definitions)
 {% highlight ruby %}
-
-    require 'factory_girl/step_definitions'
+require 'factory_girl/step_definitions'
 {% endhighlight %}
 
 - Create a database:
 - Change your database.yml:
 
-{% highlight haml %}
-     adapter: postgresql
-     database: <your_db_name>
-     username: postgres
-     password: <your_password>
-     pool: 5
-     timeout: 5000
-     host: localhost
+{% highlight ini %}
+adapter: postgresql
+database: <your_db_name>
+username: postgres
+password: <your_password>
+pool: 5
+timeout: 5000
+host: localhost
 {% endhighlight %}
 
 - Install RSpec
 
 {% highlight ruby %}
-    rails generate rspec:install
+rails generate rspec:install
 {% endhighlight %}
 
 - Install Cucumber
 {% highlight ruby %}
-    rails generate cucumber:install --capybara --rspec --spork
+rails generate cucumber:install --capybara --rspec --spork
 {% endhighlight %}
 
 - Add a model
 - Migrate your database(s)
 
 {% highlight ruby %}
-    rake:db:create
-    rake:db:migrate
-    rake:db:test:prepare
+rake:db:create
+rake:db:migrate
+rake:db:test:prepare
 {% endhighlight %}
 
 - Make sure the site runs with one of your object controllers being the default home page configure everything for running tests quickly and automatically
 
-{% highlight ruby %}
-    # bootstrap spork
-    spork --bootstrap
-    # configure spec helper to use database cleaner
-    guard init spork
-    guard init rspec
-    guard init cucumber
-    # make sure spark block comes first
-    # make sure rspec and cucumber both startup (in guard) with the --drb option
+{% highlight ini %}
+# bootstrap spork
+spork --bootstrap
+# configure spec helper to use database cleaner
+guard init spork
+guard init rspec
+guard init cucumber
+# make sure spark block comes first
+# make sure rspec and cucumber both startup (in guard) with the --drb option
 {% endhighlight %}
 
 - Add a project in [Pivotal Tracker](http://www.pivotaltracker.com) (or some kanban tool) to manage your stories and velocity
