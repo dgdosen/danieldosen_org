@@ -4,4 +4,4 @@ gem 'jekyll'
 gem 'RedCloth'
 gem 'capistrano'
 gem 'bootstrap-sass'
-
+gem 'compass'
