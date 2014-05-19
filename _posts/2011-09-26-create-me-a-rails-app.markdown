@@ -2,10 +2,10 @@
 layout: post
 title: "Create Me a Rails App"
 date: 2011-09-26 20:18
-published: true
 comments: true
 category: technical
 ---
+
 I watched the latest and very helpful Railscast episode this morning - on [Spork](http://railscasts.com/episodes/285-spork) and wound up tweaking all the projects I'm working on to incorporate some of the things I learned in that screencast.
 
 I also wound up tweaking a checklist I maintain in an Evernote entry of what I do to setup a Rails project.  Of the projects I'm working on, I wind up putting them all into a similar environment and figured it would be a useful blog post.  So here it is:

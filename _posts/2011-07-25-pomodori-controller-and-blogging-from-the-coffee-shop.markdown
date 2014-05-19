@@ -1,14 +1,12 @@
---- 
-layout: post
-title: Pomodori Controller and Blogging from the coffee shop...
-tags: 
-- Personal
-status: publish
-type: post
-published: true
-meta: {}
-
 ---
+layout: post
+title: "Pomodori Controller and Blogging from the coffee shop..."
+date: 2011-07-25
+tags:
+- Personal
+type: post
+---
+
 - in the coffee shop
 - not using their sucky bandwidth
 - using personal hotspot

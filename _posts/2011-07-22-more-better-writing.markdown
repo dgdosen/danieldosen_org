@@ -1,15 +1,13 @@
---- 
+---
 layout: post
 title: More Better Writing
-tags: 
+tags:
 - Personal
-status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "1"
-  _syntaxhighlighter_encoded: "1"
+meta:
 ---
+
 So, I'm back to posting. This is, what will be, one of my first blog posts in any blog for a long time. And just to set the record straight - every time I started to blog about anything, I never kept with it.
 
 Now, however, I'm taking a different tack. Blogging can and should have a more powerful impact on what I'm doing and I've come to realize that blogging can have a positive impact on my life in a few ways:

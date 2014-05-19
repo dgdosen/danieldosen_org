@@ -3,7 +3,7 @@ layout: post
 title: "New Year's Flu"
 description: ""
 categories: personal
-tagline: Let's make bootstrap interesting... 
+tagline: Let's make bootstrap interesting...
 ---
 
 Happy New Year!  First post in like, a year, and I'm sitting at home with a nasty flu.  I figured getting my blog(s) and personal web sites updated was just the right amount of taxing my brain could use to keep me from falling asleep, yet still come nowhere near to adding to my weakened state.  I mean, blogging with Jekyll is a blast.  I was doing so, but in a moment of cheapness, I moved to Jekyll and pushed my built website to Heroku for free! The bad part about that is that Heroku won't keep your site spinned up unless it has users, and well, my writing style and content probably has a bit to be desired.
