@@ -1,12 +1,12 @@
---- 
+---
 layout: post
 title: Hello danieldosen.org...
-tags: 
+tags:
 - Personal
 status: trash
 type: post
 published: true
-meta: 
+meta:
   _edit_last: "1"
   _wp_trash_meta_status: publish
   _wp_trash_meta_time: "1311534096"
