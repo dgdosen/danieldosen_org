@@ -57,7 +57,7 @@ the way:
 
 * [jekyll-bootstrap](http://jekyllbootstrap.com/ "jekyll-bootstrap"): already
 outdated and a bit byzantine...
-* [octopress](http://octopress.org/ "octopress.org"): more outaded
+* [octopress](http://octopress.org/ "octopress.org"): more outdated
 * [generator-jekyll](https://github.com/robwierzbowski/generator-jekyllrb/
 "generator-jekyll"): You  now get a nice workflow for building and monitoring
 a site with jekyll... this just adds another level of complexity, and is
