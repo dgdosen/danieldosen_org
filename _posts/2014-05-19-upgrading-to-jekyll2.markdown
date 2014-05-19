@@ -9,7 +9,7 @@ tags: tech
 I noticed that [Jekyll](http://jekyllrb.com/ "Jekyll"), the component used to
 create this blog, has been upgraded to V2.0.
 I'm particularly happy that it helps streamline the ability to use SASS and
-CoffeeScript for static-content site.  To me, there are a few features
+CoffeeScript for static-content sites.  To me, there are a few features
 that I want to use in any blog/static site, and I get all of that with
 Jekyll.  Can't beat it.  So here's what this site is using. Feel free to copy it
  from [Github](https://github.com/dgdosen/danieldosen_org "danieldosen.org on
@@ -47,7 +47,7 @@ deploy from my laptop, right to my public facing web server:
    merge = refs/heads/master
 [remote "deployment"]
    url = your_deployer@your_website.com:~/repos/danieldosen_org.git
-   fetch = +refs/heads/*:refs/remotes/deploy/*
+   fetch = +refs/heads/*:refs/remotes/deployment/*
 
 {% endhighlight %}
 
