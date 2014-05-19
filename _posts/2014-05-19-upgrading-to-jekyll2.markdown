@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Upgrading to Jekyll 2"
-description: " "
+description: "  "
 categories: personal
 tags: tech
 ---
