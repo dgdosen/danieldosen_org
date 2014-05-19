@@ -1,11 +1,12 @@
 # Site settings
 title: danieldosen.org
 email: daniel@danieldosen.org
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "blogging on technical product development, flow, finance, economics and pop culture"
 baseurl: ""
 url: "http://danieldosen.org"
+username: "dgdosen"
 
-# Build settings
+  # Build settings
 markdown: kramdown
 permalink: pretty
 sass:
