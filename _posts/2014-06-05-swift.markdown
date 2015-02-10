@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Swift Driven Development"
+description: "Opinoins on developing with Swift"
+categories: Development
+tags: apple tech
+author: "Daniel Dosen"
+---
+
+I'm sitting here at Apple's Developer Conference and reflecfting on the week and
+am pretty suprised at how complete and easy it is to work with Swfit, Apple's
+new development language.  I'm sure it means different things to different
+people.  I've heard dozen's of comments like "It's just like Ruby, but with
+named params and curly braces" or "Looks like CSharp to me"... or Scala, or
+whatever.  You get the idea that there's tons copied from other 
+
+Playgrounds and a REPL are very welcome to me.  I find it very similar to a
+Clojure REPL or even using Pry in a Rails project.  All very awesome, and all
+very cool ways to flush out ideas.  Part of me thinks that 
+
+swift 1.2
+
+Ideas:
+
+- Tie into how people learn
+- Try into "experimenting"
+- Playgrounds?
+
