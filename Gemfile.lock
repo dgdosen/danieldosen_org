@@ -47,6 +47,11 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-seo-tag (2.3.0)
+      jekyll (~> 3.3)
+    jekyll-theme-minimal (0.1.0)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.15.0)
@@ -82,6 +87,7 @@ DEPENDENCIES
   capistrano
   compass
   jekyll
+  jekyll-theme-minimal
 
 BUNDLED WITH
    1.13.7
