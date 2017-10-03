@@ -5,8 +5,14 @@ description: "using a jekyll repository to post to medium"
 categories: Development
 tags:
 author: "Daniel Dosen"
+
 ---
 
-Can I use jekyll to wriet and edit posts and then cross post to medium?
+Can I use jekyll to write and edit posts and then cross post to medium?
 It's all markdown, so that doesn't seem like too big of an issue...
+
+**Can I?**
+
+
+
 
