@@ -1,11 +1,15 @@
 ---
 layout: post
-title: Winning the Morning?
+title: "Winning the Morning?"
+date: 2018-02-05 20:18
+comments: true
 tags:
 - Personal
 type: post
 published: true
 meta:
+author: "Daniel Dosen"
+
 ---
 
 Tim Ferriss has a podcast - some call it a bro-science podcast - and in it, he sometimes mentions this idea of winning the morning.  There are five things he does to start the day so that, in his words, if he gets them done, he's won the morning.  I can agree with that.
