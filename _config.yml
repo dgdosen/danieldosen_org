@@ -13,4 +13,4 @@ sass:
   sass_dir: _sass
 include: ["javascripts"]
 
-theme: jekyll-theme-minimal
+theme: minima
